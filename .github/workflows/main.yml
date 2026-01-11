@@ -1,0 +1,12 @@
+name: Issue Opened Example
+ 
+on:
+  issues:
+    types: [opened]
+ 
+jobs:
+  issue-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Issue created message
+        run: echo "An issue has been opened in this repository"
