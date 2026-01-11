@@ -1,0 +1,12 @@
+name: Issue Closed Example
+ 
+on:
+  issues:
+    types: [closed]
+ 
+jobs:
+  close-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Issue closed message
+        run: echo "An issue has been closed"
