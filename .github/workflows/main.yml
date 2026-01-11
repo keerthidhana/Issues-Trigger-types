@@ -1,0 +1,12 @@
+name: Multiple Issue Events
+ 
+on:
+  issues:
+    types: [opened, edited, closed]
+ 
+jobs:
+  multi-issue-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Multiple issue actions
+        run: echo "Issue opened, edited, or closed"
