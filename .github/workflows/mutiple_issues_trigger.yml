@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Multiple issue actions
-        run: echo "Issue opened, edited, or closed"
+        run: echo "Issue opened, edited, or closed..."
