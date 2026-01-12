@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Issue created message
-        run: echo "An issue has been opened in this repository"
+        run: echo "An issue has been opened in this repository...."
